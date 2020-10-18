@@ -6,6 +6,7 @@ public class Stringsort
 		int num;
 		String str;
 		Scanner obj=new Scanner(System.in);
+		Scanner obj1=new Scanner(System.in);
 		
 		System.out.println("Enter the number:");
 		num=obj.nextInt();
@@ -13,7 +14,7 @@ public class Stringsort
 		System.out.println("Enter the strings:");
 		for(int i=0;i<num;i++)
 		{
-			str[i]=obj.next();
+			str[i]=obj1.next();
 		}
 		for(int i=0;i<num;i++)
 		{
@@ -30,7 +31,7 @@ public class Stringsort
 		System.out.println("the strings:");
 		for(int i=0;i<num;i++)
 		{
-			System.out.println(str[i]);
+			System.out.println(str[i]+" ");
 		}
 }
 		
