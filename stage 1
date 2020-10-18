@@ -20,7 +20,7 @@ public class Stringsort
 		{
 			for(int j=i+1;j<num;j++)
 			{
-				if(str[i].compareTo(str[j]>0)
+				if(str[i].compareTo(str[j]>0))
 				{
 					temp=str[i];
 					str[i]=str[j];
@@ -33,5 +33,6 @@ public class Stringsort
 		{
 			System.out.println(str[i]+" ");
 		}
+	}
 }
 		
