@@ -8,7 +8,7 @@ public class Stringsort
 		Scanner obj=new Scanner(System.in);
 		Scanner obj1=new Scanner(System.in);
 		
-		System.out.println("Enter the number:");
+		System.out.println("Enter the number of strings for which the sorting should take place:");
 		num=obj.nextInt();
 		String str[]=new String[num];
 		System.out.println("Enter the strings:");
@@ -28,7 +28,7 @@ public class Stringsort
 				}
 			}
 		}
-		System.out.println("the strings:");
+		System.out.println("The sorted strings are:");
 		for(int i=0;i<num;i++)
 		{
 			System.out.println(str[i]+" ");
